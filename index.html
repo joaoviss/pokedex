@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="shortcut icon" href="https://www.freeiconspng.com/thumbs/pokeball-png/file-pokeball-png-0.png" type="image/png">
+    <link rel="stylesheet" href="./css/style.css">
+<script defer src="./js/script.js"></script>
+</head>
+<body>
+    <main class="main">
+        <img src="./img/pokedex.png" alt="pokedex" class="pokedex">
+        <h1 id="pk-info">
+            <span id="pk-id"></span> - <span id="pk-name"></span>
+            <div id="pk-type"></div>
+        </h1>
+        <form id="pk-form">
+            <input type="search" name="q" id="search" placeholder="name or number" required>
+        </form>
+        <div class="buttons">
+            <button class="button" id="btn-back">&laquo;</button>
+            <button class="button" id="btn-next">&raquo;</button>
+        </div>
+        <img id="pk-figure">
+    </main>
+</body>
+</html>

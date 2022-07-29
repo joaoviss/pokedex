@@ -25,6 +25,7 @@ const render = async (s) => {
         pkFigure.src = data['sprites']['versions']['generation-v']['black-white']['animated']['front_default']
         startId = data.id;
     } else {
+        pkType = '';
         pkId.innerHTML = '';
         pkName.innerHTML = 'Not Found';
         pkFigure.src = 'https://images.emojiterra.com/google/android-11/512px/2754.png';
